@@ -1,0 +1,25 @@
+1-create a git hub repository to be used as your project
+
+2-create a .git ignore file and add .env 
+                                    /node_modules
+so that these 2 will not be uploaded to git hub.
+
+3-create a .env file and then npm init
+
+4- npm i dotenv is needed
+
+5- To use .env file we need import 
+
+const PORT = process.env.PORT || 8787   
+
+app.listen(PORT,()=>{}
+ clg(`App is letening at port ${PORT}`
+)
+
+For mongo db connnection use URI and user name  , password from
+.env file
+process.env.MONGO_URI
+
+In .env file we write 
+MONGO_URI = 
+
